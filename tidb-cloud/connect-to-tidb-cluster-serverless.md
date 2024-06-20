@@ -21,13 +21,13 @@ After your TiDB Serverless cluster is created on TiDB Cloud, you can connect to 
 
     The standard connection exposes a public endpoint with traffic filters, so you can connect to your TiDB cluster via a SQL client from your laptop.
 
-    TiDB Serverless supports [TLS connections](/tidb-cloud/secure-connections-to-serverless-clusters.md), which ensures the security of data transmission from your applications to TiDB clusters.
+    TiDB Serverless requires [TLS connections](/tidb-cloud/secure-connections-to-serverless-clusters.md), which ensures the security of data transmission from your applications to TiDB clusters.
 
-- [Connect via Chat2Query (beta)](/tidb-cloud/explore-data-with-chat2query.md)
+- [Connect using built-in SQL Editor](/tidb-cloud/explore-data-with-chat2query.md)
 
-    TiDB Cloud is powered by artificial intelligence (AI). You can use Chat2Query (beta), an AI-powered SQL editor in the [TiDB Cloud console](https://tidbcloud.com/), to maximize your data value.
+    You can use AI-assisted SQL Editor in the [TiDB Cloud console](https://tidbcloud.com/) to run SQL quries. 
 
-    In Chat2Query, you can either simply type `--` followed by your instructions to let AI generate SQL queries automatically or write SQL queries manually, and then run SQL queries against databases without a terminal. You can find the query results in tables intuitively and check the query logs easily.
+    In SQL Editor, you can either write SQL queries manually or simply press `Cmd + I` (or `Ctrl + I`) followed by your instructions to let AI generate SQL queries automatically, and then run SQL queries against databases without a local SQL client. You can find the query results in tables intuitively and check the query logs easily.
 
 ## What's next
 
