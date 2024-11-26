@@ -21,7 +21,7 @@ When you create a cluster with default Zonal High Availability, all components, 
 >
 > This is the default option and is available in all AWS regions that support TiDB Cloud Serverless.
 
-![Serverless Zonal HA](../media/tidb-cloud/serverless-zonal-high-avaliability-aws.png)
+![Serverless Regional HA](../media/tidb-cloud/serverless-regional-high-avaliability-aws.png)
 
 In Zonal High Availability architecture:
 
